@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUH</title>
+    <style>
+        /* Thêm một số CSS cơ bản để trang trí */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trường Đại Học Công Nghiệp Thành Phố Hồ Chí Minh</h1>
+        <p>Chào mừng bạn đến với ngôi trường của chúng tôi!</p>
+    </header>
+
+    <div class="container">
+
+        <section class="section">
+            <h2>Giới thiệu</h2>
+            <p>Trường Đại Học Công Nghiệp Thành Phố Hồ Chí Minh là một môi trường học tập năng động và sáng tạo, nơi học sinh được phát triển toàn diện về kiến thức, kỹ năng và phẩm chất.</p>
+        </section>
+
+        <section class="section">
+            <h2>Hình ảnh</h2>
+            <img src="anh-truong-hoc.jpg" alt="Ảnh trường học" width="300">
+            <img src="anh-hoc-sinh.jpg" alt="Ảnh học sinh" width="300">
+        </section>
+
+        <section class="section">
+            <h2>Liên hệ</h2>
+            <p>
+                Địa chỉ: Số 12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, Thành phố Hồ Chí Minh<br>
+                Điện thoại: 0283.8940 390<br>
+                Email: dhcn@iuh.edu.vn
+            </p>
+        </section>
+
+    </div>
+
+</body>
+</html>
